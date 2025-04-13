@@ -26,6 +26,11 @@ Uma aplicação mobile desenvolvida em **React Native** que simula um feed de v�
 - ✅ Persistência dos likes com `AsyncStorage`
 - ✅ Scroll infinito com paginação falsa (simulação de carregamento)
 
+### Extras 
+
+- ✅ Tela de loading
+- ✅ Double-tap para dar like
+
 ---
 
 ## 🧱 Tecnologias Utilizadas
@@ -84,13 +89,9 @@ src/
 
 ## 🧪 Detalhes Técnicos
 
-- A lista de vídeos é gerenciada via `FlashList` com `viewabilityConfigCallbackPairs` para identificar o vídeo visível.
+- A lista de vídeos é gerenciada via `FlashList`, por ter melhor performance, com `viewabilityConfigCallbackPairs` para identificar o vídeo visível.
 - Cada vídeo é pausado/reproduzido com base no `currentIndex` visível no feed.
 - Os likes são armazenados em `AsyncStorage` e aplicados de forma animada com toque duplo ou botão.
 - Scroll infinito simulado com carregamento falso para novos vídeos.
+- Tempo gasto: Aproximadamente 6 horas de desenvolvimento e 2 horas de revisão
 
----
-
-## 📬 Contato
-
-Em caso de dúvidas ou sugestões, sinta-se à vontade para entrar em contato!
