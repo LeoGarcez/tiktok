@@ -58,14 +58,6 @@ yarn
 
 ### 3. Execute a aplicação
 
-Se estiver usando Expo:
-
-```bash
-npx expo start
-```
-
-Se estiver com React Native CLI:
-
 ```bash
 npx react-native run-android
 # ou
